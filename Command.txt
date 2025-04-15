@@ -1,0 +1,36 @@
+Install Apache web server:
+bash  sudo apt update  sudo apt install apache2
+
+
+
+
+Create a new directory for the phishing page:bash  sudo mkdir /var/www/html/phishing
+
+
+
+
+Open theindex.htmlfile in a text editor and paste the phishing page code:
+bash  nano /var/www/html/phishing/index.html
+
+
+
+
+Save theindex.htmlfile and exit the text editor:
+bash  Ctrl + X, Y, Enter
+
+
+
+
+Start the Apache web server (if it's not already running):
+bash  sudo systemctl start apache2
+
+
+
+
+Access the phishing page by opening a web browser and navigating tohttp://localhost/phishing:
+
+
+typescript
+Copy code
+
+[object Object]
